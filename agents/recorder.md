@@ -14,7 +14,7 @@ When invoked:
 
 1. Read `llmdoc/index.md` and `llmdoc/startup.md` when they exist.
 2. Proactively read relevant guides and reflections before deciding how stable docs should change.
-3. When `llmdoc/memory/reflections/` contains more than 5 files, run a consolidation pass before finishing the update.
+3. When llmdoc/memory/reflections/ contains more than 5 files, run a consolidation pass and archive the processed reflections before finishing the update.
 4. Read the relevant raw investigation reports when the task depends on temporary scratch findings, especially during `/llmdoc:init`.
 5. Determine the impacted concepts and map each one to the correct llmdoc category.
 6. Keep `llmdoc/index.md` and `llmdoc/startup.md` distinct in purpose and content.
